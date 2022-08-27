@@ -1,184 +1,106 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>David Olona Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/9dad5390b9.js" crossorigin="anonymous"></script>
+    <title>David Olona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="scrollToTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <nav class="navbar">
+       <div class="socials">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/david-olona-978204174/" target="_blank"> <i class="fa-brands fa-linkedin"> </i></a></li>
+            <li><a href="https://github.com/Trxllest" target="_blank"> <i class="fa-brands fa-github"></i> </a></li>
+        </ul>
+       </div>
+       <a href="#" class="toggle-btn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+       </a>
+       <div class="navbar-links">
+        <ul>
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">Projects</a></li>
+            <li><a href="#section3">Resume</a></li>
+        </ul>
+       </div>
+    </nav>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <div id="section1">
+        <div class="wrapper">
+            <article class="img-info">
+                <h2>About Me...</h2>
+                <p>"I am currently a Honours Health Studies student with a minor in Computing at the University of Waterloo,
+                    where I am also employed as a Research Assistant. 
+                    With early aspirations to become a doctor, things quickly began to change
+                    when I took a computer science course at the university. The thrill of solving problems and the potential to create
+                    anything I wanted attracted me in ways medicine didn't. Thus, that is how I added a computing minor to my program and began making strides
+                    to become a software developer. Coming from an unconventional background it was not easy but I hope to document my progress using this website."
+                </p>
+            </article>
+            <img class="img-me" src="images/pic_david.jpeg" alt="David Olona">
+        </div>
+    </div>
+        
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>David Olona<br />
-						Portfolio</h1>
-						<p>A collection of projects done to demonstrate the programming and data analysis abilities of <a href="https://www.linkedin.com/in/david-olona-978204174">David Olona</a>.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">David Olona</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							<!-- <li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li> -->
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/david-olona-978204174/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
-							<li><a href="https://github.com/Trxllest" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<!-- <span class="date">April 25, 2017</span> -->
-									<h2><a href="https://github.com/Trxllest/Projects/blob/master/AmznWebScraper/AmznWebScraping.ipynb">Amazon Web Scraper<br /></a></h2>
-									<p>In this project I utilized python to create a script that checks the price of a backpack I really want. 
-										Included, is an option to be notified by email if the price is below a certain value.
-									</p>
-								</header>
-								<a href="https://github.com/Trxllest/Projects/blob/master/AmznWebScraper/AmznWebScraping.ipynb" class="image main"><img src="images/Amazon.png" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/Trxllest/Projects/blob/master/AmznWebScraper/AmznWebScraping.ipynb" class="button large">View Project</a></li>
-								</ul>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<!-- <span class="date">April 24, 2017</span> -->
-										<h2><a href="https://github.com/Trxllest/PortfolioProjects/blob/main/CovidDeathsQueries.sql">Exploring COVID-19 Data<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Trxllest/PortfolioProjects/blob/main/CovidDeathsQueries.sql" class="image fit"><img src="images/Covid.jpeg" alt="" /></a>
-									<p>In this project I use Azure Data Studio to explore global COVID-19 data.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Trxllest/PortfolioProjects/blob/main/CovidDeathsQueries.sql" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 22, 2017</span> -->
-										<h2><a href="https://public.tableau.com/app/profile/david.oluwadamilare.olona/viz/CovidDashboard2021_16524607951640/Dashboard1">Covid-19 Tableau Dashboard<br />
-										</a></h2>
-									</header>
-									<a href="https://public.tableau.com/app/profile/david.oluwadamilare.olona/viz/CovidDashboard2021_16524607951640/Dashboard1" class="image fit"><img src="images/Tableau.png" alt="" /></a>
-									<p>Covid-19 data dashboard to display projections as well as country level data. </p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/david.oluwadamilare.olona/viz/CovidDashboard2021_16524607951640/Dashboard1" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 18, 2017</span> -->
-										<h2><a href="https://github.com/Trxllest/leetcode/tree/master/python">LeetCode<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Trxllest/leetcode/tree/master/python" class="image fit"><img src="images/Leetcode.png" alt="" /></a>
-									<p>My solutions to various leetcode problems can be found here. Watch me as I progress my problem solving skills.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Trxllest/leetcode/tree/master/python" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 14, 2017</span> -->
-										<h2><a href="https://github.com/Trxllest/PortfolioProjects/blob/main/MovieCorrelationProject.ipynb">Movie Revenue Correlation<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Trxllest/PortfolioProjects/blob/main/MovieCorrelationProject.ipynb" class="image fit"><img src="images/Movies.jpeg" alt="" /></a>
-									<p>In this project I utilized python to find variables that correlated with a movies gross revenue. <br />
-									 I also provide visualizations for the results.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Trxllest/PortfolioProjects/blob/main/MovieCorrelationProject.ipynb" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 11, 2017</span> -->
-										<h2><a href="https://github.com/Trxllest/PortfolioProjects/blob/main/CleaningDataQueries">Data Cleaning In SQL<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Trxllest/PortfolioProjects/blob/main/CleaningDataQueries" class="image fit"><img src="images/Housing.jpeg" alt="" /></a>
-									<p>In this project I take raw housing data and transform
-										it in Azure Data Studio to make it more usable for analysis.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Trxllest/PortfolioProjects/blob/main/CleaningDataQueries" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<!-- <article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article> -->
-							</section>
+    <div id="section2">
+        <div class="wrapper">
+            <h2 style="font-size: 40px;">Projects...</h2>
+            <div class="carousel">
+                <div class="carousel__item">
+                    <a href="https://twitter.com/TendieBot" alt="Tendie Bot Bob"><img src="images/Tendie.png" alt="Tendie"></a>
+                </div>
+                <div class="carousel__item">
+                    <a href="https://goalappdavid.herokuapp.com/login" alt="Goal app"><img src="images/Goalsapp.png" alt="Goals"></a>
+                </div>
+                <div class="carousel__item">
+                    <a href="https://github.com/Trxllest/AmznWebScraper/blob/master/AmznWebScraper/AmznWebScraping.ipynb" alt="web scraper"><img src="images/Amazon.jpeg" alt="Amazon"></a>  
+                </div>
+              </div>
+        </div>
+    </div>
 
 
+    <div id="section3">
+        <div class="wrapper">
+            <h2 style="font-size: 40px;">Résumé</h2>
+            <img src="images/SD Resume.png" alt="Resume" class="pdf">
 
-						
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>Toronto, Canada<br />
-								</p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">damilear@outlook.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/david-olona-978204174/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
-									<li><a href="https://github.com/Trxllest" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+                <!-- <iframe src="resume(test).pdf#view=fitH" frameborder="0" class="pdf"></iframe> -->
+            <button class="resume-btn" href="" download="Olona_David_Resume"> <a href="" download="res"> Download PDF </a> </button>
+        </div>
+    </div>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
 
-			</div>
+    <!-- <div id="section4">
+        <div class="wrapper">
+            <article class="img-info">
+                <h2>About Me</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </article>
+            <img class="img-me" src="images/pic_david.jpeg" alt="David Olona">
+        </div>
+    </div> -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <div class="footer">
+        <nav class="navbar">
+            <div class="socials">
+             <ul>
+                 <li><a href="https://www.linkedin.com/in/david-olona-978204174/" target="_blank"> <i class="fa-brands fa-linkedin"> </i></a></li>
+                 <li><a href="https://github.com/Trxllest" target="_blank"> <i class="fa-brands fa-github"></i> </a></li>
+             </ul>
+            </div>
+         </nav>
+    </div>
+</body>
 
-	</body>
 </html>
